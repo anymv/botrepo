@@ -1,4 +1,4 @@
-FROM ghcr.io/yzop/megasdk:3.8.6
+FROM ghcr.io/yzop/megasdk:3.8.8
 WORKDIR /app
 RUN chmod 777 /app && \
     apt-get -qq update && \
